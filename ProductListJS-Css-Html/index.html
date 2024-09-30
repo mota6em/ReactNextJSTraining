@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">                       
+    <link rel="stylesheet" href="media.css">                       
+    <link rel="icon" href="images/logoIcon.jpg">
+    <meta charset="UTF-8">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products</title>
+</head>
+<body>
+    <header>
+        <h1>Our Products</h1>
+    </header>
+    <section class="filter-section">
+        <button class="child filter-bar" id="all-items">All</button>
+        <div class="filter-gender child">
+            <label class="filter-bar">Gender<i class='bx bx-chevron-down toggleIcon' ></i></label>
+            <div class="choose-list hidden" >
+                <div>
+                    <input type="checkbox" id="men" name="gender" value="Men">
+                    <label for="men">Men</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="women" name="gender" value="Women">
+                    <label for="women">Women</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="unisex" name="gender" value="Unisex">
+                    <label for="unisex">Unisex</label>
+                </div>
+            </div>
+        </div>
+        <div class="filter-price child">
+            <label class="filter-bar">Price<i class='bx bx-chevron-down toggleIcon'></i></label> 
+            <div class="hidden toLeftLittle">
+                <div>
+                    <input type="checkbox" id="under50" name="price" value="Under $50">
+                    <label for="under50">Under $50</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="from50to100" name="price" value="$50 - $100">
+                    <label for="from50to100">$50 - $100</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="from100to150" name="price" value="$100 - $150">
+                    <label for="from100to150">$100 - $150</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="over150" name="price" value="over $150">
+                    <label for="over150">Over $150</label>
+                </div>                
+            </div>
+        </div>
+        <div class="sales child">
+            <label class="filter-bar">Sale & Offers<i class='bx bx-chevron-down toggleIcon'></i></label>
+            <div class="hidden">
+                <div>
+                    <input type="checkbox" id="sale" name="sale" value="sale">
+                    <label for="sale">Sale</label>
+                </div>
+            </div>
+        </div>
+        <div class="color child">
+            <label class="filter-bar">Color<i class='bx bx-chevron-down toggleIcon'></i></label>
+            <div class="hidden">
+                <div>
+                    <input type="checkbox" id="white" name="color" value="White">
+                    <label for="white">White</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="black" name="color" value="Black">
+                    <label for="black">Black</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="red" name="color" value="Red">
+                    <label for="red">Red</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="blue" name="color" value="Blue">
+                    <label for="blue">Blue</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="multiColour" name="multiColour" value="multiColour">
+                    <label for="multiColour">Multi-Colour</label>
+                </div>
+            </div>
+        </div>
+        <div id="to-up-btn"><i class='bx bx-up-arrow-alt'></i></div>
+    </section>
+    <section class="bar-options-background"></section>
+    <section id="product-display" class="product-display"></section>
+    <footer>
+        <div class="footer-container">
+          <div class="footer-section about">
+            <h3>About Us</h3>
+            <p>We are a leading online store offering a wide range of products at affordable prices. Our goal is to provide the best shopping experience for our customers.</p>
+          </div>
+      
+          <div class="footer-section links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">Sales & Offers</a></li>
+              <li><a href="#">Customer Support</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+      
+          <div class="footer-section contact">
+            <h3>Contact Us</h3>
+            <ul>
+              <li>Email: support@store.com</li>
+              <li>Phone: +20 20 20 20</li>
+              <li>Address: 22 Khan Younis, Plastine</li>
+            </ul>
+          </div>
+      
+          <div class="footer-section social">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+                <a href="https://github.com/mota6em/" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://www.instagram.com/mota6em/" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://www.facebook.com/mota6em/" target="_blank"><i class='bx bxl-facebook-circle' ></i></a>
+                <a href="https://t.me/mota6em" target="_blank"><i class='bx bxl-telegram' ></i></a>
+            </div>
+          </div>
+        </div>
+      
+        <div class="footer-bottom">
+          <p>&copy; 2024 Motta. All Rights Reserved.</p>
+        </div>
+      </footer>
+      
+    <script src="script.js"></script>
+</body>
+</html>
